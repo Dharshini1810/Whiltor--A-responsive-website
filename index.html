@@ -1,155 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-    /> 
-    <link rel="stylesheet" href="home.css"/>
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-  </head>
-  <body> 
-    <header> 
-      <!-- Just an image -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Container wrapper -->
-        <div class="container-fluid"> 
-          <a class="navbar-brand" href="#">
-            <img
-              src="img/Whiltor.png"
-              height="50" 
-              width="130"
-              alt=""
-              loading="lazy"
-            />
-          </a>
-          <!-- Toggle button -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarRightAlignExample"
-            aria-controls="navbarRightAlignExample"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-      
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarRightAlignExample">
-            <!-- Left links -->
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li> 
-              <!-- Navbar dropdown -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-mdb-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <!-- Dropdown menu -->
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#">Action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-                  >Disabled</a
-                >
-              </li>
-            </ul>
-            <!-- Left links -->
-          </div>
-          <!-- Collapsible wrapper -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <link rel="stylesheet" href="home.css" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Just an image -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/Whiltor.png" height="50" width="130" alt="" loading="lazy" />
+        </a>
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <!-- Left links -->
         </div>
-        <!-- Container wrapper -->
-      </nav>
-    
-      <!-- Background image -->
-      <div
-        class="p-5 text-center bg-image"
-        style="
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+    <!-- Background image -->
+    <div class="p-5 text-center bg-image" style="
           background-image: url('img/home.jpg');
           height: 600px;
-        "
-      >
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.9);">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white">
-              <h1 class="mb-3" style="font-size: 100px; color:#fee715ff">WHILTOR</h1>
-              <h4 class="mb-3" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; font-weight: 500;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</h4>
-              <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-                >
-                GET STARTED</a
-              >
+        ">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.9);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3" style="font-size: 100px; color:#fee715ff">WHILTOR</h1>
+            <h4 class="mb-3"
+              style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; font-weight: 500;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et
+              dolore magna aliqua.</h4>
+            <a class="btn btn-outline-light btn-lg" href="#!" role="button">
+              GET STARTED</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+  <section class="about my-0 bg-primary1">
+    <div class="container">
+      <div>
+        <h1 class="text-center" style="color:black;">ABOUT <span class="text" style="color: #fee715ff">WHILTOR</span>
+        </h1>
+        <hr / class="w-25 m-auto">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <h1></h1>
+          <div class="para-text" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  History
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-mdb-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is hidden by default,
+                  until the collapse plugin adds the appropriate classes that we use to style each
+                  element. These classes control the overall appearance, as well as the showing and
+                  hiding via CSS transitions.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                  data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Work
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-mdb-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong> This is the second item's accordion body.</strong> It is hidden by
+                  default, until the collapse plugin adds the appropriate classes that we use to
+                  style each element. These classes control the overall appearance, as well as the
+                  showing and hiding via CSS transitions.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                  data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Technology used
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-mdb-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                  until the collapse plugin adds the appropriate classes that we use to style each
+                  element. These classes control the overall appearance, as well as the showing and
+                  hiding via CSS transitions.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Facebook-->
+          <a class="fb-ic mr-3 social-1" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+          <!--Twitter-->
+          <a class="tw-ic mr-3 social" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+          <!--Linkedin-->
+          <a class="li-ic mr-3 social" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a>
+          <!--Instagram-->
+          <a class="ins-ic mr-3 social" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-5 col-12 img-abt text-end m-auto">
+          <div class="bg-image hover-zoom">
+            <img src="img/about.jpg" style="margin-top: 25px;" class="img-fluid img-thumbnail m-auto text-end">
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-light btn-abt">KNOW MORE</button>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="text-center my-5">
+        <h1 class="text-center" style="color:black;">OUR <span class="text" style="color: #fee715ff"> SERVICES</span>
+        </h1>
+        <hr / class="w-25 m-auto">
+
+
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Android Development</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <button type="button" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"> Web Development</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <button type="button" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Graphic Designing</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <button type="button" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">UI/UX Design</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <button type="button" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Data Structures</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <button type="button" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Flutter</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <button type="button" class="btn btn-primary">Button</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="team my-5 text-center">
+    <div class="container">
+      <div class="text-center my-5">
+        <h1 class="text-center" style="color:black;">OUR <span class="text" style="color: #fee715ff"> TEAM</span>
+        </h1>
+        <hr / class="w-25 m-auto">
+
+
+
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <img
+              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Member1</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <img
+              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Member2</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <img
+              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Member3</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
             </div>
           </div>
         </div>
       </div>
-      <!-- Background image -->
-    </header> 
-    <section class="about my-0 bg-primary1">
-      <div class="container">
-        <div>
-          <h1 class="text-center" style="color:black;">ABOUT <span class="text" style="color: #fee715ff">WHILTOR</span></h1> 
-          <hr / class="w-25 m-auto">
-        </div> 
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12">
-            <h1></h1> 
-            <p class="para-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-            <!--Facebook-->
-<a class="fb-ic mr-3 social-1" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
-<!--Twitter-->
-<a class="tw-ic mr-3 social" role="button"><i class="fab fa-lg fa-twitter"></i></a>
-<!--Linkedin-->
-<a class="li-ic mr-3 social" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a>
-<!--Instagram-->
-<a class="ins-ic mr-3 social" role="button"><i class="fab fa-lg fa-instagram"></i></a>
-</div>    
-          <div class="col-sm-12 col-md-6 col-lg-5 col-12 img-abt text-end m-auto"> 
-            <div class="bg-image hover-zoom">
-              <img src="img/about.jpg" style="margin-top: 25px;" class="img-fluid img-thumbnail">
-            </div>  
-          </div>
-        </div> 
-        <button type="button" class="btn btn-light btn-abt">KNOW MORE</button>   
-      </div>  
-    </section>
+    </div>
+  </section>
 
-    <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script type="text/javascript"></script>
-  </body>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
 </html>
