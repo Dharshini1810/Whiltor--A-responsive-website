@@ -20,7 +20,7 @@
 <body>
   <header>
     <!-- Just an image -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <!-- Container wrapper -->
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -41,15 +41,24 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+              <a class="nav-link" href="#aboutus">About</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Our Team</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li> 
             <!-- Navbar dropdown -->
-            <li class="nav-item dropdown">
+            <!--<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
                 aria-expanded="false">
                 Dropdown
               </a>
-              <!-- Dropdown menu -->
+              Dropdown menu 
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a class="dropdown-item" href="#">Action</a>
@@ -67,7 +76,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+            </li>-->
           </ul>
           <!-- Left links -->
         </div>
@@ -97,16 +106,17 @@
     </div>
     <!-- Background image -->
   </header>
-  <section class="about my-0 bg-primary1">
+  <section class="about my-0 bg-primary1" id="aboutus">
     <div class="container">
       <div>
-        <h1 class="text-center" style="color:black;">ABOUT <span class="text" style="color: #fee715ff">WHILTOR</span>
-        </h1>
+        <h1 class="text-center" style="color:black; margin-top: 30px;">ABOUT <span class="text" style="color: #fee715ff">WHILTOR</span>
+        </h1>  
         <hr / class="w-25 m-auto">
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 col-12">
-          <h1></h1>
+          <h1></h1> 
+          <p class="para-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <div class="para-text" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -159,26 +169,27 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!--Facebook-->
-          <a class="fb-ic mr-3 social-1" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
-          <!--Twitter-->
-          <a class="tw-ic mr-3 social" role="button"><i class="fab fa-lg fa-twitter"></i></a>
-          <!--Linkedin-->
-          <a class="li-ic mr-3 social" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a>
-          <!--Instagram-->
-          <a class="ins-ic mr-3 social" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+          </div>     
         </div>
         <div class="col-sm-12 col-md-6 col-lg-5 col-12 img-abt text-end m-auto">
           <div class="bg-image hover-zoom">
             <img src="img/about.jpg" style="margin-top: 25px;" class="img-fluid img-thumbnail m-auto text-end">
           </div>
         </div>
-      </div>
-      <button type="button" class="btn btn-light btn-abt">KNOW MORE</button>
-    </div>
+      </div> 
+       <!--Facebook-->
+       <a class="fb-ic mr-3 social-1" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+       <!--Twitter-->
+       <a class="tw-ic mr-3 social" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+       <!--Linkedin-->
+       <a class="li-ic mr-3 social" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a>
+       <!--Instagram-->
+       <a class="ins-ic mr-3 social" role="button"><i class="fab fa-lg fa-instagram"></i></a> 
+    </div> 
+    <button type="button" class="btn btn-light btn-abt">KNOW MORE</button>
   </section>
-  <section>
+  <section id="services"> 
+    <hr / class="w-105 m-auto1">
     <div class="container">
       <div class="text-center my-5">
         <h1 class="text-center" style="color:black;">OUR <span class="text" style="color: #fee715ff"> SERVICES</span>
@@ -191,83 +202,84 @@
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-        <div class="card">
+        <div class="card" style="margin-left: 50px;">
           <div class="card-body">
-            <h5 class="card-title">Android Development</h5>
+            <h5 class="card-title" style="color:#fee715ff">Android Development</h5>
             <p class="card-text">
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <button type="button" class="btn btn-primary">Button</button>
+            <button type="button" class="btn btn-light">KNOW MORE</button>
           </div>
         </div>
       </div>
       <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-        <div class="card">
+        <div class="card" style="margin-left: 50px;">
           <div class="card-body">
-            <h5 class="card-title"> Web Development</h5>
+            <h5 class="card-title" style="color:#fee715ff"> Web Development</h5>
             <p class="card-text">
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <button type="button" class="btn btn-primary">Button</button>
+            <button type="button" class="btn btn-light">KNOW MORE</button>
           </div>
         </div>
       </div>
       <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-        <div class="card">
+        <div class="card" style="margin-left: 50px;">
           <div class="card-body">
-            <h5 class="card-title">Graphic Designing</h5>
+            <h5 class="card-title" style="color:#fee715ff">Graphic Designing</h5>
             <p class="card-text">
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <button type="button" class="btn btn-primary">Button</button>
+            <button type="button" class="btn btn-light">KNOW MORE</button>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-        <div class="card">
+        <div class="card" style="margin-left: 50px;">
           <div class="card-body">
-            <h5 class="card-title">UI/UX Design</h5>
+            <h5 class="card-title" style="color:#fee715ff">UI/UX Design</h5>
             <p class="card-text">
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <button type="button" class="btn btn-primary">Button</button>
+            <button type="button" class="btn btn-light">KNOW MORE</button>
           </div>
         </div>
       </div>
       <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-        <div class="card">
+        <div class="card" style="margin-left: 50px;">
           <div class="card-body">
-            <h5 class="card-title">Data Structures</h5>
+            <h5 class="card-title" style="color:#fee715ff">Data Structures</h5>
             <p class="card-text">
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <button type="button" class="btn btn-primary">Button</button>
+            <button type="button" class="btn btn-light">KNOW MORE</button>
           </div>
         </div>
       </div>
       <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-        <div class="card">
+        <div class="card" style="margin-left: 50px;">
           <div class="card-body">
-            <h5 class="card-title">Flutter</h5>
+            <h5 class="card-title" style="color:#fee715ff">Flutter</h5>
             <p class="card-text">
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <button type="button" class="btn btn-primary">Button</button>
+            <button type="button" class="btn btn-light">KNOW MORE</button>
           </div>
         </div>
       </div>
     </div>
 
-  </section>
-  <section class="team my-5 text-center">
+  </section id="team"> 
+  <hr / class="w-105 m-auto1">
+  <section class="team my-5 text-center" id="team">
     <div class="container">
       <div class="text-center my-5">
         <h1 class="text-center" style="color:black;">OUR <span class="text" style="color: #fee715ff"> TEAM</span>
@@ -279,60 +291,181 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-          <div class="card">
+          <div class="card" style="margin-left: 50px;">
             <img
               src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Member1</h5>
+              <h5 class="card-title" style="color:#fee715ff;">Member 1</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up the bulk of the
                 card's content.
               </p>
-              <a href="#!" class="btn btn-primary">Button</a>
+              <button type="button" class="btn btn-light">KNOW MORE</button>   
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-          <div class="card">
+          <div class="card" style="margin-left: 50px;">
             <img
               src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Member2</h5>
+              <h5 class="card-title" style="color:#fee715ff;">Member 2</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up the bulk of the
                 card's content.
               </p>
-              <a href="#!" class="btn btn-primary">Button</a>
+              <button type="button" class="btn btn-light">KNOW MORE</button>   
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-          <div class="card">
+          <div class="card" style="margin-left: 50px;">
             <img
               src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
               class="card-img-top"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Member3</h5>
+              <h5 class="card-title" style="color:#fee715ff;">Member 3</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up the bulk of the
                 card's content.
               </p>
-              <a href="#!" class="btn btn-primary">Button</a>
+              <button type="button" class="btn btn-light">KNOW MORE</button>   
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> 
+  <hr / class="w-105 m-auto1">
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="text-center my-5">
+        <h1 style="color:black; margin-top: -50px;">CONNECT WITH<span style="color:#fee715ff;"> WHILTOR</span></h1> 
+        <hr / class="w-25 m-auto">
+      </div> 
+      <div class="row"> 
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 img-abt text-end m-auto"> 
+          <div class="bg-image hover-zoom"> 
+          <img src="img/contact.jpg" style="width: 500px; height: 300px; margin-right: 60px; margin-bottom: 20px;" class="img-fluid img-thumbnail"/>
+        </div> 
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <form>
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" />
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" />
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+           <!-- Message input -->
+           <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
+          </div>
+        
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="form4Example4"
+              checked
+            />
+            <label class="form-check-label" for="form4Example4">
+              Send me a copy of this message
+            </label>
+          </div>
+        
+          <!-- Submit button -->
+          <button type="button" class="btn btn-light">SUBMIT</button>   
+        </form>
+      </div>
+    </div>
+  </div>
+</section>  
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
 
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
 
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>

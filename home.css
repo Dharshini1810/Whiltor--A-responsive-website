@@ -17,6 +17,7 @@
 .social-1{ 
     color:#ffc500; 
     font-size: 120%; 
+    margin-top: 110px;
 } 
 .social-1:hover{
     color:black;
@@ -30,7 +31,8 @@
     color:black;
 } 
 .btn-abt{
-    margin: 2px 2px;
+    margin-top: 30px; 
+    margin-left: 145px;
     
 }  
 .m-auto{
@@ -56,5 +58,8 @@
 }
 button{
     color: yellow;
+} 
+.m-auto1{
+    margin-top: 30px;
 }
     
