@@ -1,0 +1,37 @@
+.text-white a:hover{
+    background-color: #fee715ff; 
+    font-weight: 1000; 
+    color:black; 
+    outline: none;
+} 
+.bg-primary1{
+    background-color: white;
+}  
+.para-text{ 
+    margin-top: 30px;
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-weight: 500; 
+    color: black;
+} 
+.social-1{ 
+    color:#ffc500; 
+    font-size: 120%; 
+} 
+.social-1:hover{
+    color:black;
+}
+.social{
+    margin-left: 30px; 
+    color:#fee715ff; 
+    font-size: 120%;
+}
+.social:hover{
+    color:black;
+} 
+.btn-abt{
+    margin-top: 20px;
+}  
+.m-auto{
+    color:black;
+}
